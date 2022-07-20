@@ -1,0 +1,48 @@
+
+#autoTop {
+	width: 50%;
+	height: auto;
+	margin: auto;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	/* border:1px solid black; */
+}
+#autoTop > img {
+	display: block;
+	position: static;
+	top: 20px;
+	margin:20px auto 0px auto;
+	/* background-color: red; */
+}
+
+#autoTop > p {
+	color: grey;
+	font-size: small;
+}
+
+#autoTop + img {
+	/* background-color: red; */
+	position: relative;
+	left: 50%;
+}
+
+#autofooter {
+	/* border: 1px solid pink; */
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+#autofooter > div:nth-child(1),
+#autofooter > div:nth-child(2),
+#autofooter > div:nth-child(3) {
+	width: 200px;
+	height: auto;
+	text-align: center;
+	font-size: small;
+}
+#autofooter p {
+	color: grey;
+}
