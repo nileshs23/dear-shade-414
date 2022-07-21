@@ -22,8 +22,8 @@ h4{
 }
 p{
     font-family: "Circular Std", sans-serif;
-    color: rgba(56,49,68,.6);
-    font-size: .8em;
+    color: rgba(54, 49, 64, 0.6);
+    font-size: .75em;
     cursor: pointer;
 }
 p:hover{
@@ -37,6 +37,7 @@ p:hover{
 #logo_footer:hover{
     width: 15em;
     cursor: pointer;
+    /* transform: translateY(10px); */
 }
 .app_logo{
     width: 100px;
@@ -73,6 +74,7 @@ p:hover{
 #hiring{
     background-color: #fe435e;
     border-radius: 10px;
+    font-size: .75em;
     border: none;
     color: aliceblue;
     cursor: pointer;
@@ -83,4 +85,16 @@ p:hover{
     background-color: rgb(150, 125, 125);
     border-radius: 50%;
     display: inline-block;
+  }
+  .sm_logo{
+    width: 13px;
+    height: 10px;
+    cursor: pointer;
+  }
+  #last_line{
+    font-family: "Circular Std", sans-serif;
+    font-size: .85em;
+    display: flex;
+    gap: 540px;
+    
   }
