@@ -9,6 +9,8 @@ function setData() {
 	title.setAttribute("type", "text");
 	title.setAttribute("id", "title");
 
+	let div = document.createElement("div");
+
 	let category = document.createElement("select");
 	category.setAttribute("id", "category");
 
@@ -23,7 +25,7 @@ function setData() {
 	category.append(gen, com);
 
 	let h1 = document.createElement("h1");
-	h1.innerText = "Time";
+	h1.innerText = "00:00:00";
 	h1.setAttribute("id", "log");
 
 	let timer1 = document.createElement("input");
@@ -50,7 +52,9 @@ function setData() {
 	let submit = document.createElement("input");
 	submit.setAttribute("type", "submit");
 
-	form.append(title, category, h1, timer1, timer2, timer3, submit);
+	div.append(h1, timer1, timer2, timer3);
+
+	form.append(title, category, div, submit);
 	container.append(form);
 }
 
@@ -66,13 +70,14 @@ function addTimer(val) {
 	var rminutes = Math.round(minutes);
 
 	// console.log(rhours, rminutes);
-	document.getElementById("log").innerText = `${rhours}hh :${rminutes}mm`;
+	document.getElementById("log").innerText = `0${rhours}:${rminutes}:00`;
 }
 
 document.querySelector("form").addEventListener("submit", saveData);
 
 let data = JSON.parse(localStorage.getItem("dataOfDay")) || [];
 let day = localStorage.getItem("day");
+
 function saveData() {
 	// event.preventDefault();
 	let title = document.querySelector("#title").value;
