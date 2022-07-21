@@ -52,7 +52,7 @@ let navbar = () => {
 				</div>
 
 				<a href="">Talk To sales</a>
-				<a href="">Log in</a>
+				<a href="./app.html">Log in</a>
 				<button>Start 14-day free trial</button>
 				<img
 					src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a399529fb8af72e_made-by-dark2.svg"
