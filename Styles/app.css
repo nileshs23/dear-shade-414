@@ -1,0 +1,44 @@
+#cards {
+	border: 1px solid red;
+	display: grid;
+	grid-template-columns: repeat(7, 1fr);
+	gap: 2px;
+	justify-content: center;
+	align-items: center;
+}
+
+.wrapper {
+	height: 500px;
+	background-color: white;
+}
+
+.wrapper > input {
+	display: none;
+}
+.wrapper:hover input {
+	/* background-color: black; */
+	display: inline-block;
+}
+
+.submitBtn {
+	width: 80%;
+	height: 50px;
+	margin: auto;
+	color: white;
+	border: none;
+	border-radius: 10px;
+	background-color: #3d73da;
+	font-size: large;
+}
+
+.entry-card {
+	width: 80%;
+    height: auto;
+	margin: 10px 10px 0 0 ;
+	border-radius: 10px;
+	display: grid;
+	justify-content: center;
+	align-items: center;
+	background-color: #47b17c;
+	color: white;
+}
