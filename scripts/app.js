@@ -56,6 +56,7 @@ function setData() {
 
 				let wages = `₹ ${ele.time * 0.25}`;
 				totalTime += ele.time;
+
 				// console.log(wages);
 
 				card.append(title, time, category, wages);
@@ -88,4 +89,6 @@ function convertToHr(val) {
 	}
 }
 
-document.getElementById("total").innerText = convertToHr(totalTime);
+document.getElementById("total").innerText = `Total Time: ${convertToHr(
+	totalTime
+)}`;

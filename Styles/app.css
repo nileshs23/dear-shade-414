@@ -1,8 +1,15 @@
+body {
+	background-color: #eaeaea;
+}
+
 #cards {
 	/* border: 1px solid red; */
-	width: 85%;
+	width: 90%;
 	margin: auto;
 	display: grid;
+	position: fixed;
+	left: 100px;
+	top: 90px;
 	grid-template-columns: repeat(7, 1fr);
 	gap: 2px;
 	justify-content: center;
@@ -63,4 +70,52 @@
 	cursor: pointer;
 	box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
 		rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+#header {
+	width: 80%;
+	height: 50px;
+	margin: 20px auto;
+	font-size: larger;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* text-align: center; */
+	font-weight: 900;
+	/* border: 1px solid red; */
+}
+
+#sidebar {
+	width: 80px;
+	height: 100%;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #44505e;
+	overflow-x: hidden;
+	padding-top: 20px;
+	display: grid;
+
+	/* border-radius: 10px; */
+	grid-template-rows: auto;
+	/* border: 1px solid red; */
+}
+
+#sidebar > button {
+	background-color: #44505e;
+	color: white;
+	border: none;
+	text-transform: uppercase;
+	font-size: 13px;
+	border-radius: 10px;
+}
+
+#sidebar > button:hover {
+	cursor: pointer;
+	background-color: white;
+	color: black;
+}
+img {
+	width: 70px;
 }
