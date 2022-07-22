@@ -1,11 +1,12 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
 #pricing-head{
    margin: auto;
    width: 90%;
 
-}
-*{
-    margin: 0px;
-    padding: 0px;
 }
 #pricing-head h1{
     margin: 0;
@@ -203,22 +204,20 @@ img{
 }
 #imgdiv{
    display: flex;
-     width: 6em;
-    object-fit: contain;
+    justify-content: space-evenly;
+    /* object-fit: contain;
     flex-grow: 0;
     flex-shrink: 1;
     flex-basis: auto;
     -webkit-box-flex: 0;
     -ms-flex: 0 auto; 
    margin-left: 80px;
-   margin-right: 80px;
+   margin-right: 80px; */
 }
 #imgdiv img{
-    border: 0;
-    max-width: 100%; 
-    width: 60%;
-   height: 60%;
-    position: static;
+    width: 50%;
+    height: 30%;
+    margin-bottom: 20px;
 
 }
 .subheadbold{
@@ -308,13 +307,32 @@ margin-left: 20px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 30px;
+}
+#hrast12{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 300px;
+
+}
+.p1 p{
+    margin-left: 20px;
+    font-family: Circularstd,sans-serif;
+    display: block;
+  color: #FFFFFF;
+    line-height: 20px;
+   
+    font-size: 14.4px;
+
 } 
 .p p{
     color: #001141;
     margin-left: 20px;
-    
+    font-family: Circularstd,sans-serif;
+    display: block;
+  
+    line-height: 20px;
    
-    font-size: 1.1em;
+    font-size: 14.4px;
 }
 .subheadbold1{
    
@@ -436,5 +454,25 @@ margin-left: 20px;
         justify-content:space-evenly;
         margin-top: 20px;
       }
+      body{
+        font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+    }
+    #inpuntdivv{
+        margin-top: 20px;
+        margin-left: 20px;
+
+    }
+    #inpuntdivv input,label{
+        margin-top: 10px;
+        font-size: 13.2px;
+        color: #001141;
+        
+    }
+    #inpuntdivv input{
+       color: #4b46d9;
+        
+    }
+    
+    
 
 
