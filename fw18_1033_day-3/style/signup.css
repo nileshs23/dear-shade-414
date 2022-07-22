@@ -1,0 +1,336 @@
+#navbar{
+    display: flex;
+    justify-content:safe;
+}
+#navimg1{
+    
+    width: 45%;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+#navimg2{
+   
+    width: 50%;
+   
+    margin-top: 20px;
+    height: 100px;
+}
+#navimg2 img{
+    width: 7%;
+    border-radius: 10px;
+}
+#box{
+    display: flex;
+    justify-content: flex-start;
+
+}
+#box1{
+width: 50%;
+height:auto;
+
+
+}
+#box2{
+    width: 60%;
+    height: 50%;
+   
+
+}
+.signuph1{
+    color: #64657e;
+    font-weight: 900;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 5px;
+    margin-left: 0px;
+    font-size: 21px
+
+}
+.signuph1 h1{
+    display: block;
+    line-height: 1.1;
+    text-align: center;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.signupp{
+    margin-bottom: 20px
+
+}
+.signupp p{
+    text-align: center;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+    color: #7b7b91;
+    font-size: 14px;
+    line-height: 1.428571429;
+   
+}
+.signupp a{
+    color:#00D68c;
+    text-decoration: none;
+    font: 14;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+}
+.googlebutoon button{
+    position: relative;
+    height: 62px;
+    padding: 0 50px 0 50px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    box-shadow: none;
+    -webkit-appearance: none;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-color: rgb(242, 241, 242);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(242, 241, 242);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(242, 241, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(242, 241, 242);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: white;
+    background-color: #fff;
+    color: #7b7b91;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.428571429;
+    text-align: center;
+   
+    
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-left:30px;
+}
+.applebutoon button{
+    position: relative;
+    height: 62px;
+    padding: 0 50px 0 50px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    margin-bottom: 10px;
+    width: 80%;
+    box-shadow: none;
+    -webkit-appearance: none;
+    outline: none;
+    outline-color: initial;
+    outline-style: none;
+    outline-width: initial;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    border-top-color: rgb(242, 241, 242);
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-right-color: rgb(242, 241, 242);
+    border-right-style: solid;
+    border-right-width: 2px;
+    border-bottom-color: rgb(242, 241, 242);
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-left-color: rgb(242, 241, 242);
+    border-left-style: solid;
+    border-left-width: 2px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: white;
+    background-color: #fff;
+    color: #7b7b91;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.428571429;
+    text-align: center;
+   
+    
+    cursor: pointer;
+    margin-top: 0px;
+    margin-right:0px;
+    margin-left:30px;
+
+}
+input{
+    webkit-appearance: none;
+    border: solid 2px #f2f1f2;
+    border-radius: 16px;
+    font-size: 18px;
+    outline: 0;
+    padding: 0 50px 0 50px;
+    padding-top: 0px;
+    padding-right: 50px;
+    padding-bottom: 0px;
+    padding-left: 50px;
+    width: 65%;
+    background: white;
+    height: 62px;
+    box-shadow: none;
+    color: #64657e;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-right: 0px;
+    
+}
+label{
+    display: block;
+    text-align: center;
+    font-size: 14;
+    color: #7b7b91;
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+    margin: 10px;
+}
+label a{
+    color:#00D68c;
+    text-decoration: none;
+    font: 14;
+    text-decoration-thickness: initial;
+    text-decoration-style: initial;
+    text-decoration-color: initial;
+    cursor: pointer;
+}
+
+button{
+    background-image: initial;
+    background-position-x: initial;
+    background-position-y: initial;
+    background-size: initial;
+    background-repeat-x: initial;
+    background-repeat-y: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    padding-top: 10px;
+   height: 60px;
+   width: 50%;
+   margin-bottom: 10px;
+    font-size: 18px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    border-bottom-left-radius: 16px;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    color: white;
+    background-color: #00d68c;
+    border: none;
+    font-weight: 900;
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.headline{
+    padding: 0 10px;
+    margin: 0 auto;
+    font-size: 24px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: center;
+    color: #64657e;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+body{
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+#imgdiv{
+    display: flex;
+    justify-content: center;
+    
+
+}
+.imgone img{
+    height: 130px;
+    width: 100px;
+    vertical-align: middle;
+    aspect-ratio: auto 116 / 150;
+    font-size: 14px;
+    line-height: 1.428571429
+
+}
+.imgtwo img{
+    height: 130px;
+    width: 100px;
+    vertical-align: middle;
+    aspect-ratio: auto 116 / 150;
+    font-size: 14px;
+    line-height: 1.428571429
+    
+
+}
+
+.imgthree img{
+    height: 130px;
+    width: 100px;
+    vertical-align: middle;
+    aspect-ratio: auto 116 / 150;
+    font-size: 14px;
+    line-height: 1.428571429
+
+}
+.manmax{
+    border: 1px solid red;
+    margin: auto;
+    margin-left: 30%;
+    
+}
+.h3class1 {
+    text-align: center;
+}
+.h3class1 h3{
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 1.1;
+    color:#64657e;
+    font-size: 20px;
+    font-family:"Circular", -apple-system, BlinkMacSystemFont, system, sans-serif; ;
+
+}
+.h3class1 span{
+    text-align: center;
+    color: black;
+}
+.h3class1 p{
+    color: #64657e;
+}
+

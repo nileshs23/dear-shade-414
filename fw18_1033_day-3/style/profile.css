@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Circular", -apple-system, BlinkMacSystemFont, system, sans-serif;
+}
+
+
+#container{
+    display: flex;
+
+}
+#h1div{
+    width: 50%;
+   
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 600px;
+}
+#h1div h1{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    margin-bottom: 20px;
+}
+#h1div label{
+       margin-top: 10px;
+        cursor: default;
+        margin-bottom: 10px;
+        margin-left: 10px;
+}
+#h1div input{
+    margin-top: 20px;
+    writing-mode: horizontal-tb !important;
+    padding: 10px;
+    width: 80%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+   
+    display: inline-block;
+    
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color:floralwhite;
+ 
+ 
+    border-width: 1px;
+    border-radius: 5px;
+    
+    
+    border-color: -internal-light-dark(rgb(99, 63, 241), rgb(101, 116, 232));
+   
+    font-family: inherit;
+}
+#h1div button{
+    margin: 10px;
+    width: 130px;
+    border-radius: 5px;
+    height: 50px;
+    border: 0px;
+    background-color: rgb(108, 204, 108);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+#photoside{
+    width: 50%;
+   
+    margin-top: 150px;
+    margin-left: 20px;
+    height: 500px;
+}
+#imgurl{
+    width: auto;
+    height: auto;
+   
+}
+#imgurl img{
+    width: 20%;
+    margin-left: 20px;
+}
+#addimage{
+    margin-left: 25px;
+}
+#addimg button{
+    width:100px ;
+    border: 1px solid red;
+    height: 60px;
+    color: blue;
+    border: 0px;
+    background-color: white;
+    cursor: pointer;
+}
+#addimg button:hover{
+    background-color: blueviolet;
+    color: white;
+}
+#radio  {
+    border: 1px solid red;
+   margin-left: 0px;
+}
+#radio input{
+    margin-left: 0px;
+}
+#navx{
+    display: flex;
+    justify-content:space-evenly ;
+    border: 1px solid rgb(223, 212, 212);
+    height: 80px;
+    border-right-color: rgb(221, 221, 221);
+    background-color: hsl(0, 7%, 95%);
+}
+.onenav {
+    margin: auto;
+    text-align: center;
+    font-size: 13px;
+}
+
+.onenav a{
+    text-decoration: none;
+    color: #898E96;
+}
