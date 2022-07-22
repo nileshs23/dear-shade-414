@@ -1,0 +1,129 @@
+*{
+    font-family: "Circular Std", sans-serif;
+}
+#main{
+    border: 2px solid gray;
+    margin: auto;
+}
+#heading{
+    text-align: center;
+}
+.heading_h1{
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: -.04em;
+    margin: 0;
+    color: #001141;
+}
+#heading_p{
+    margin-top: 1%;
+    color: rgba(0,17,65,.5);
+    line-height: 1;
+    letter-spacing: -.03em;
+    font-size: 1.4em;
+    /* line-height: 1.3; */
+    font-weight: 500;
+}
+#cards{
+    margin-top: 3%;
+    margin-left: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+.card{
+    padding-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 250px;
+    height: 200px;
+}
+.card_img{
+    width: 40px;
+    height: 40px;
+}
+.card_btn_img{
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.card_btn{
+    width: 150px;
+    color: aliceblue;
+    height: 40px;
+    margin-top: auto;
+    padding: 1.17em 2.07em;
+    border: 1px #383144;
+    border-radius: 0.7em;
+    background-color: #001141;
+    box-shadow: 3px 3px 0.8em 0 rgb(86 68 112 / 25%)
+}
+#below_card_text{
+    width: 100%;
+    text-align: center;
+}
+.below_card_text_img{
+    margin-top: 70px;
+    width:20px;
+    height: 20px;
+}
+.pppp{
+    margin-top: -50px;
+    font-family: Circularstd,sans-serif;
+    color: #001141;
+    font-size: 1vw;
+    line-height: 1.6;
+}
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 100px;
+}
+#logo_sec{
+    margin-left: 10%;
+    display: flex;
+    gap: 80px;
+}
+#zoom{
+    transition: transform .2s;
+    width: 100px;
+    height: 120px;
+  }
+  
+  #zoom:hover {
+    transform: scale(1.1); 
+  }
+  #main_mid{
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+  }
+  #frame{
+    margin-top: 50px;
+    margin-left: 18%;
+    width: 60%;
+    height: auto;
+    text-align: center;
+    border: 30px solid rgb(155, 114, 218);
+  }
+  #mid_logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+  }
+  #email{
+    border: 2px solid rgb(210, 152, 152);
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+  }
+  #submit{
+    width: 100px;
+    height: 40px;
+  }
+  label{
+    margin-left: -27%;
+    text-align: start;
+  }
