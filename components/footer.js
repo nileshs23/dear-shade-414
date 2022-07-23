@@ -1,13 +1,5 @@
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="footer_style.css">
-</head>
-<body>
-    <div id="main_footer">
+let footer = () => {
+	return `    <div id="main_footer">
         <div id="footer_left">
             <div><img id="logo_footer" src="https://assets-global.website-files.com/622f69e00c9cf2599f3c60d5/62556ba13d84b67cea42af8a_made-by-dark.svg" alt=""></div>
             <hr class="line">
@@ -103,6 +95,7 @@
         <img class="sm_logo" src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a3995140e8af655_Twitter.svg" alt="">
         <span class="dot"></span>
         <img class="sm_logo" src="https://assets-global.website-files.com/6257f2528a39952d4e8af286/6257f2528a3995580a8af657_Vector.svg" alt="">
-    </div>
-</body>
-</html>
+    </div>`;
+};
+
+export default footer;
