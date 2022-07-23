@@ -70,7 +70,7 @@ function saveData(ele) {
 	event.preventDefault();
 	console.log("Clicked Button", ele);
 	localStorage.setItem("day", ele);
-	window.location.href = "./project.html";
+	window.location.href = "./addProject.html";
 }
 
 // console.log(data[1]);

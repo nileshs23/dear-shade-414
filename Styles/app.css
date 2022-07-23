@@ -85,37 +85,3 @@ body {
 	/* border: 1px solid red; */
 }
 
-#sidebar {
-	width: 80px;
-	height: 100%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	left: 0;
-	background-color: #44505e;
-	overflow-x: hidden;
-	padding-top: 20px;
-	display: grid;
-
-	/* border-radius: 10px; */
-	grid-template-rows: auto;
-	/* border: 1px solid red; */
-}
-
-#sidebar > button {
-	background-color: #44505e;
-	color: white;
-	border: none;
-	text-transform: uppercase;
-	font-size: 13px;
-	border-radius: 10px;
-}
-
-#sidebar > button:hover {
-	cursor: pointer;
-	background-color: white;
-	color: black;
-}
-img {
-	width: 70px;
-}
