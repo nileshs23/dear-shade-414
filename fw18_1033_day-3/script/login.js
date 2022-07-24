@@ -1,6 +1,9 @@
 import { navbar, sidebar } from "../components/navbar.js";
 let n = document.getElementById('navbar');
 
+
+
+
 n.innerHTML = navbar();
 
 let b = document.getElementById('box1');
@@ -25,6 +28,8 @@ let loginFun = () => {
 
 let valideUser = (arr, email, password) => {
     let count = 0;
+    console.log(arr.length)
+    
 
     for (let i = 0; i < arr.length; i++) {
         console.log(arr[i])
@@ -35,7 +40,10 @@ let valideUser = (arr, email, password) => {
             break;
         }
     }
-    if (count == 0) {
+    if(arr.length==0){
+        alert("Please Signup First")
+    }
+    else if (count == 0) {
         alert("login Fail")
     }
 

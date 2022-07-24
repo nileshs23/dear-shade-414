@@ -108,6 +108,14 @@ body{
 #radio input{
     margin-left: 0px;
 }
+#h1{
+   
+    margin-left: 80px;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 20px;
+
+}
 #navx{
     display: flex;
     justify-content:space-evenly ;

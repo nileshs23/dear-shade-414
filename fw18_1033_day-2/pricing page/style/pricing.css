@@ -148,25 +148,13 @@ strong{
     background-color: hsl(147, 58%, 62%);
 
 }
-
-#xxx{
-    margin-top: 40px;
+#oneh1tag{
     text-align: center;
-    margin: auto;
-    line-height: 1.75;
-    font-size: 1.1em;
-    columns: #333333;
-    margin-top: 40px;
-}
-
-#oneh1tag1{
-    /* 
     margin: auto;
    line-height: 1.75;
    font-size: 1.1em;
    columns: #333333;
    margin-top: 40px;
-   background-color: #4b46d9; */
 
 
 }
@@ -196,15 +184,6 @@ img{
     margin-left: 20px;
     color: #0DBB8A;
     
-}
-#last{
-    margin: auto;
-    text-align: center;
-    margin-top: 20px;
-    color: #e6e7eb;
-}
-#last a{
-    color: #e6e7eb;
 }
 
 #onetask p{

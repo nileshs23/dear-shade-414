@@ -6,11 +6,12 @@ function User_data(n, e, t, d) {
 
 }
 let data = JSON.parse(localStorage.getItem('user_data')) || []
-
+console.log(data)
 for (let i = 0; i < data.length; i++) {
-    let x = document.getElementById('name')
+    let x = document.getElementById('h1')
     x = data[data.length - 1].name;
-    document.getElementById('name').innerHTML = x;
+    console.log(x)
+    document.getElementById('h1').innerHTML = x;
 }
 let user = JSON.parse(localStorage.getItem('updatedata')) || [];
 function update_user() {
@@ -23,6 +24,7 @@ function update_user() {
     console.log(u1)
     user.push(u1);
     localStorage.setItem('updatedata', JSON.stringify(user));
+    document.getElementById('h1').innerHTML = name;
     document.getElementById('name').value = null;
     document.getElementById('email').value = null;
     document.getElementById('time').value = null;
@@ -37,14 +39,13 @@ function Image(img) {
 let get_img = [];
 
 let chaneImage = () => {
+    
     let img = document.getElementById('fileimg').value;
-    let p = new Image(img)
-    get_img.push(p);
-    let x = localStorage.setItem('newimage', JSON.stringify(get_img));
+   get_img.push(img)
+    let div=document.getElementById('div');
+    let v=document.createElement('img');
+    v.src=img;
+div.append(v)
+   let ss=document.getElementById('imguri1');
+  ss.append(div);
 }
-let a = JSON.parse(localStorage.getItem("newimage")) || [];
-let img = document.createElement('img');
-img.src = (a[0].image)
-
-
-document.getElementById('imgurl').append(img)
