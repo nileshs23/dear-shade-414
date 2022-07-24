@@ -1,0 +1,330 @@
+*{
+    font-family: "Circular Std", sans-serif;
+}
+#main{
+    /* border: 2px solid gray; */
+    margin: auto;
+}
+#heading{
+    text-align: center;
+}
+.heading_h1{
+    font-size: 3em;
+    line-height: 1;
+    letter-spacing: -.04em;
+    margin: 0;
+    color: #001141;
+}
+#heading_p{
+    margin-top: 1%;
+    color: rgba(0,17,65,.5);
+    line-height: 1;
+    letter-spacing: -.03em;
+    font-size: 1.4em;
+    /* line-height: 1.3; */
+    font-weight: 500;
+}
+#cards{
+    margin-top: 3%;
+    margin-left: 10%;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    display: flex;
+    gap: 100px;
+}
+.card{
+    padding-top: 3%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border: none;
+    border-radius: 10px;
+    width: 250px;
+    height: 200px;
+}
+.card_img{
+    width: 40px;
+    height: 40px;
+}
+.card_btn_img{
+    margin-bottom: -5px;
+    width: 20px;
+    height: 20px;
+}
+.card_btn{
+    /* margin-top: -100px; */
+    cursor: pointer;
+    width: 150px;
+    color: aliceblue;
+    height: 50px;
+    margin-top: auto;
+    padding: 1.17em 2.07em;
+    border: 1px #383144;
+    border-radius: 0.7em;
+    background-color: #001141;
+    box-shadow: 3px 3px 0.8em 0 rgb(86 68 112 / 25%)
+}
+.card_btn:hover{
+    background-color: #8a3ffc;
+}
+#below_card_text{
+    width: 100%;
+    text-align: center;
+}
+.below_card_text_img{
+    margin-top: 70px;
+    width:20px;
+    height: 20px;
+}
+.pppp{
+    margin-top: -50px;
+    font-family: Circularstd,sans-serif;
+    color: #001141;
+    font-size: 1vw;
+    line-height: 1.6;
+}
+.logo{
+    cursor: pointer;
+    width: 80px;
+    height: 100px;
+}
+#logo_sec{
+    margin-left: 10%;
+    display: flex;
+    gap: 80px;
+}
+#zoom{
+    transition: transform .2s;
+    width: 100px;
+    height: 120px;
+  }
+  
+  #zoom:hover {
+    transform: scale(1.1); 
+  }
+  #main_mid{
+    margin-top: 50px;
+    padding: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+  }
+  #frame{
+    margin-top: 50px;
+    margin-left: 18%;
+    width: 60%;
+    height: 600px;
+    text-align: center;
+    border: 30px solid rgb(155, 114, 218);
+  }
+  #mid_logo{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+  }
+  #email{
+    border: 2px solid rgb(210, 152, 152);
+    border-radius: 5px;
+    width: 50%;
+    height: 50px;
+  }
+  #submit{
+    cursor: pointer;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 30px;
+    color: #001141;
+  }
+  #submit:hover{
+    background-color:rgb(155, 114, 218);
+    color: aqua;
+  }
+  #label1{
+    color: #33475b;
+    line-height: 24px;
+    margin-left: -27%;
+    text-align: start;
+  }
+  #bellow_mid{
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    gap: 100px;
+  }
+  #vid_img{
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+  }
+  
+  #fname{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+  }
+  #lname{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 200px;
+    height: 40px;
+  }
+  #mid_email{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+  }
+  #company{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+  }
+  #ph{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+  }
+  #msg{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+    border: none;
+    border-radius: 8px;
+    width: 400px;
+    height: 40px;
+  }
+  .check{
+    display: flex;
+    margin-left: 76px;
+    width: 10px;
+    height: 10px;
+  }
+  .pp{
+    text-align: left;
+    margin-top: -15px;
+    margin-left: 90px;
+    /* border: 1px solid red; */
+  }
+
+  #mid_sub{
+    cursor: pointer;
+    border-radius: 10px;
+    color: aqua;
+    background-color: #001141;
+    width: 150px;
+    height: 50px;
+  }
+  #footer{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; 
+  }
+  .zig-zag-line {
+    border: none;
+    width: 100%;
+    margin: auto;
+    margin-top: 7%;
+    height: 5px;
+    background: linear-gradient(135deg, #E5E5E5 20%, transparent 25%) -20px 0,
+    linear-gradient(225deg, #E5E5E5 25%, transparent 20%) -20px 0,
+    linear-gradient(315deg, #E5E5E5 25%, transparent 20%),
+    linear-gradient(45deg, #E5E5E5 25%, transparent 20%);
+    background-size: 30px 30px;
+    background-color:  rgba(243,241,245,0);
+}
+#last{
+    text-align: center;
+}
+#duck{
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+.qna_h3{
+  margin: auto;
+  text-align: left;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 60%;
+    font-size: 2.71em;
+    line-height: 1.2;
+    font-weight: 700;
+    letter-spacing: -.02em;
+    color: #001141;
+}
+.faq-heading{
+  border-bottom: #777;
+  padding: 20px 60px;
+}
+.faq-container{
+display: flex;
+justify-content: center;
+flex-direction: column;
+
+}
+.hr-line{
+width: 60%;
+margin: auto;
+}
+/* Style the buttons that are used to open and close the faq-page body */
+.faq-page {
+  /* background-color: #eee; */
+  text-align: left;
+  color: #444;
+  cursor: pointer;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  border-radius: 10px;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  outline: none;
+  transition: 0.4s;
+  margin: auto;
+
+}
+.faq-body{
+  margin: auto;
+  margin-top: -20px;
+  /* text-align: center; */
+ width: 60%; 
+ padding: auto;
+ 
+}
+
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.faq-page:hover {
+  color: aqua;
+  background-color:  #8a3ffc;
+}
+
+/* Style the faq-page panel. Note: hidden by default */
+.faq-body {
+  padding: 0 18px;
+  background-color: white;
+  font-family: Circularstd,sans-serif;
+    color: #001141;
+    font-size: 1.5vw;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.faq-page:after {
+  content: '\02795';
+  /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  /* background-color:  #8a3ffc; */
+  color:  #8a3ffc;
+  float: right;
+  margin-left: 5px;
+}
+
+.active:after {
+  content: "\2796";
+  /* Unicode character for "minus" sign (-) */
+}

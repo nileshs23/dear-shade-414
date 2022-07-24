@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="./styles/profile.css">
+    <link rel="stylesheet" href="./styles/sidebar.css">
+</head>
+
+<body>
+    <div id="sidebar"></div>
+    <div id="navx">
+        <div class="onenav">
+            <h3><a href="#">WORKSPACE</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="./profile.html">PROFILE</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="#">SUBSCRIPTION</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="#">TAGS</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="#">NOTIFICATION</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="#">INTIGRATION</a></h3>
+        </div>
+        <div class="onenav">
+            <h3><a href="#">DEVS</a> </h3>
+        </div>
+    </div>
+    <span class="big-tabs-icon icon-head"></span>
+    <div></div>
+    <div id="container">
+
+        <div id="h1div">
+            <h1>Edit Your Profile</h1>
+            <label for="">Full Name</label> <br>
+            <input type="text" name="" placeholder="Enter name" id="name" /> <br>
+            <label for="">Primary Email</label> <br>
+            <input type="email" placeholder="Email" id="email"> <br>
+            <label for="">Add another email</label><br>
+            <input type="email" id="email1" placeholder="Another Email"><br>
+            <label>Time</label> <br>
+            <input type="time" id="time"> <br>
+            <label for="">Date</label><br>
+            <input type="date" placeholder="Date" id="date">
+            <button id="update" onclick="update_user()">Update</button>
+
+        </div>
+        <div id="photoside">
+            <div id="imgurl">
+                <div id="h1"> USER</div>
+                <img id="imguri1"
+                    src="https://www.gravatar.com/avatar/a6a623f16b6aec337f465d7566d67b5e?d=https%3A%2F%2Fd1vbcromo72rmd.cloudfront.net%2Fassets%2Fthumbs%2Fuser_large_retina-c403e04ad44c7d8b8c7904dc7e7c1893101f3672565370034edbe3dee9985509.jpg&s=200"
+                    alt="">
+                <!-- <img src="C:\fakepath\WhatsApp Image 2022-07-06 at 1.02.17 PM.jpeg" alt=""> -->
+            </div>
+
+            <div id="addimg">
+                <input type="url" id="fileimg" placeholder="Add Image" accept="image/png, image/jpg">
+                <button id="addimage" onclick="chaneImage()">Add Image</button>
+            </div>
+
+
+        </div>
+    </div>
+
+</body>
+
+</html>
+<script src="./scripts/profile.js"></script>
+<script src="./scripts/appSidebar.js" type="module"></script>

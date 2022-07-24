@@ -1,0 +1,84 @@
+* {
+	font-family: "Circular Std", sans-serif;
+}
+body {
+	background-color: #f6f6f7;
+}
+
+#topbar {
+	width: 90%;
+	height: 115px;
+	position: sticky;
+	top: 0;
+	left: 90px;
+	display: grid;
+	grid-template-rows: repeat(2, 1fr);
+	/* border: 1px solid red; */
+	background-color: #eef1f2;
+}
+
+#topbar > div:first-child {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #44505e;
+}
+
+#topbar > div:first-child > h1 {
+	/* background-color: red; */
+	position: relative;
+	left: 10px;
+}
+
+#topButton {
+	height: 50px;
+	/* background-color: black; */
+}
+#topButton > input {
+	width: 200px;
+	height: 60%;
+	color: white;
+	margin-right: 10px;
+}
+
+#topButton > input + button {
+	width: 120px;
+	height: 80%;
+	color: white;
+	border-radius: 10px;
+	color: black;
+	margin-right: 10px;
+	border: 1px solid #44505e;
+	background-color: white;
+}
+
+#topButton > button:last-child {
+	width: 150px;
+	height: 80%;
+	color: white;
+	border-radius: 10px;
+	border: 1px solid #44505e;
+	background-color: #3d73da;
+}
+
+#topbar > div:last-child {
+	font-size: 25px;
+	text-decoration: none;
+	/* background-color: white; */
+}
+
+#topbar > div:last-child > a {
+	/* border: 1px solid red; */
+	margin: 0 10px 0 10px;
+	padding: 10px;
+	/* border-radius: 10px; */
+	text-decoration: none;
+	background-color: #f7f9fa;
+	color: #44505e;
+}
+
+#topbar > div:last-child > a:hover {
+	color: black;
+}
+
+

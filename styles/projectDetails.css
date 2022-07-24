@@ -1,0 +1,47 @@
+* {
+	font-family: "Circular Std", sans-serif;
+}
+
+#projects {
+	width: 100%;
+	height: 150px;
+	margin-top: 50px;
+	position: absolute;
+	left: 100px;
+	display: grid;
+	grid-template-columns: repeat(2, 300px);
+	gap: 10px;
+	/* background-color: red; */
+}
+#projects > div {
+	border: none;
+	background-color: white;
+}
+#projects svg {
+	width: 30px;
+	height: auto;
+	padding: 8px;
+	margin: 0 5px;
+	color: white;
+	border-radius: 10px;
+}
+
+#general > div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#communication > div {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+#communication svg {
+	background-color: #47b17c;
+}
+
+#general svg {
+	background-color: #67a3bc;
+}
