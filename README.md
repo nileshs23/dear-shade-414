@@ -146,6 +146,7 @@ Update Profile Page
     - [ ] Add Backend to store user data.
 - [ ] Bypass Login and signup if done already
 - [ ] Website is not respnosive
+- [ ] Website is missing Animations.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
