@@ -144,6 +144,8 @@ Update Profile Page
 - [ ] Add an API support
     - [ ] Google Calendar
     - [ ] Add Backend to store user data.
+- [ ] Bypass Login and signup if done already
+- [ ] Website is not respnosive
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
