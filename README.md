@@ -73,7 +73,7 @@ Try `Link in Description` visiting our site.
 
 Tech Stack :
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,nodejs,github,git,vscode&theme=light)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,github,git,vscode&theme=light)](https://skillicons.dev)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
